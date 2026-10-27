@@ -30,13 +30,3 @@ if validate_email(email):
     print("Email format looks valid.")
 else:
     print("Invalid email format.")
-```
-
-**Sample output:**
-
-```text
-Enter your email address: example@gmail.com
-Email format looks valid.
-```
-
-**GitHub README description:** A simple email-format validation program built with Python string operations and conditional statements. It checks common formatting mistakes but does not verify whether an email address exists.
